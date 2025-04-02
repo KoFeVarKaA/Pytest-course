@@ -1,5 +1,5 @@
 # Такие импорты нужно явно указывать в конфигурационном файле
-from src.main import A
+from src.mainl2 import A
 
 def test_main():
     # убеждаемся, что-то равно чему-то
@@ -8,4 +8,3 @@ def test_main():
 def test_2():
     assert 2 == 2
 
-            
